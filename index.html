@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jesús murió por…</title>
+<meta name="description" content="Deslizá y descubrí por quién murió Jesús.">
+<meta property="og:title" content="Jesús murió por…">
+<meta property="og:description" content="Deslizá y descubrí por quién murió Jesús.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#3a6b35">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E✝️%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <button id="lang" aria-label="Idioma / Language">EN</button>
+  <button id="theme" aria-label="Tema / Theme">☀</button>
+</header>
+<main>
+  <section class="stage">
+    <h1 id="phrase"></h1>
+    <div class="wheel" id="wheel" tabindex="0" role="listbox"></div>
+  </section>
+  <p class="verse" id="verse"><span id="vtext"></span><cite id="vref"></cite></p>
+  <button id="share" class="share"></button>
+  <div class="hint" id="hint" aria-hidden="true">⌄</div>
+</main>
+<footer>
+  <span id="made"></span>
+  <a id="repo" href="https://github.com/BauDobb/thelovesjesus" target="_blank" rel="noopener">GitHub</a>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
